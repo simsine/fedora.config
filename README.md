@@ -29,4 +29,6 @@
 - User shell - fish
 - IDE - VSCodium
 - Media Downloader - yt-dlp + yt-dlp-fish-completion
+- Media encoder - ffmpeg
+- VPN client - Mullvad vpn
 
