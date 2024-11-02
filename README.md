@@ -21,7 +21,7 @@
 - Firefox theme - penguinFox - https://github.com/p3nguin-kun/penguinFox
 - GTK theme - Colloid dgtk theme - https://github.com/vinceliuice/Colloid-gtk-theme
 - Icon theme - Colloid icon theme - https://github.com/vinceliuice/Colloid-icon-theme
-- gnome-terminal - Github Dark - https://gogh-co.github.io/Gogh/
+- gnome-terminal - One Dark - https://gogh-co.github.io/Gogh/
 
 ## - Apps -
 ### - Flatpak -
