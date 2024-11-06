@@ -38,4 +38,5 @@
 - Media encoder - ffmpeg
 - VPN client - Mullvad vpn
 - Minecraft - Prism Launcher
-- fastfetch
+- fastfetch 
+- serial interface - minicom
