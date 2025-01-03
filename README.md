@@ -40,3 +40,5 @@
 - Minecraft - Prism Launcher
 - fastfetch 
 - serial interface - minicom
+- VPN - wiretuard-tools
+- VPN - tailsclae
