@@ -41,4 +41,6 @@
 - fastfetch 
 - serial interface - minicom
 - VPN - wiretuard-tools
-- VPN - tailsclae
+- VPN - tailscale
+- gcc
+- rustup
