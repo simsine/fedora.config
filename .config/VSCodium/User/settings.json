@@ -1,0 +1,111 @@
+{
+    "window.customMenuBarAltFocus": false,
+    "terminal.external.linuxExec": "ptyxis",
+
+    "explorer.confirmDragAndDrop": false,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"svelte.enable-ts-plugin": true,
+	"editor.cursorStyle": "block",
+	"telemetry.telemetryLevel": "error",
+	"editor.minimap.autohide": true,
+	"editor.minimap.renderCharacters": false,
+	"editor.minimap.size": "fit",
+	"git.openRepositoryInParentFolders": "never",
+	"workbench.startupEditor": "none",
+	"prettier.semi": false,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.printWidth": 125,
+	"vscode-office.openOutline": true,
+	"security.workspace.trust.untrustedFiles": "open",
+	"explorer.confirmDelete": false,
+	"terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'CaskaydiaCove NFM', 'Cascadia Mono', Consolas",
+	"prettier.requireConfig": true,
+	"workbench.layoutControl.type": "menu",
+	"discord.detailsEditing": "Editing {dir_name}/{file_name} Line {current_line}",
+	"discord.idleTimeout": 60,
+	"discord.detailsIdling": "Currently Idling",
+	"discord.detailsDebugging": "Debugging {file_name} Line {current_line}",
+	"redhat.telemetry.enabled": false,
+	"haskell.manageHLS": "GHCup",
+	"better-comments.tags": [
+		{
+			"tag": "!",
+			"color": "#FF2D00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "?",
+			"color": "#3498DB",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "//",
+			"color": "#474747",
+			"strikethrough": true,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "todo",
+			"color": "#FF8C00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "*",
+			"color": "#98C379",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"remote.SSH.remotePlatform": {
+		"213.52.76.233": "linux",
+		"tommyasd.com": "linux"
+	},
+	"dev.containers.executeInWSL": true,
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "'FiraCode Nerd Font Mono', 'CaskaydiaCove NFM Regular', Consolas, 'Courier New', monospace",
+	"window.titleBarStyle": "custom",
+	"window.menuBarVisibility": "compact",
+	"files.autoSave": "afterDelay",
+	"window.zoomLevel": 1,
+	"terminal.integrated.defaultProfile.linux": "fish",
+	"prisma.showPrismaDataPlatformNotification": false,
+	"[markdown]": {
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+	},
+	"git.autofetch": true,
+	"python.experiments.enabled": false,
+	"terminal.integrated.tabs.location": "left",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"git.blame.statusBarItem.enabled": true,
+    "chat.commandCenter.enabled": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"ansible.lightspeed.enabled": false,
+	"workbench.colorTheme": "Adwaita Dark & Github syntax highlighting",
+	"window.newWindowProfile": "Default",
+}

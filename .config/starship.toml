@@ -1,3 +1,16 @@
+[username]
+style_user = 'red'
+style_root = 'black bold'
+format = '[$user]($style)@'
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only=false
+format = '[$ssh_symbol](bold blue)[$hostname](red) in '
+disabled = false
+ssh_symbol = " "
+
 [aws]
 symbol = "  "
 
@@ -46,19 +59,6 @@ symbol = " "
 [hg_branch]
 symbol = " "
 
-[username]
-style_user = 'red'
-style_root = 'black bold'
-format = '[$user]($style)@'
-disabled = false
-show_always = true
-
-[hostname]
-ssh_only=false
-format = '[$ssh_symbol](bold blue)[$hostname](red) in '
-disabled = false
-ssh_symbol = " "
-
 [java]
 symbol = " "
 
@@ -82,6 +82,27 @@ symbol = " "
 
 [nodejs]
 symbol = " "
+
+[package]
+symbol = "󰏗 "
+
+[pijul_channel]
+symbol = " "
+
+[python]
+symbol = " "
+
+[rlang]
+symbol = "󰟔 "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
 
 [os]
 disabled = false
@@ -126,24 +147,3 @@ SUSE = " "
 Ubuntu = " "
 Unknown = " "
 Windows = "󰍲 "
-
-[package]
-symbol = "󰏗 "
-
-[pijul_channel]
-symbol = " "
-
-[python]
-symbol = " "
-
-[rlang]
-symbol = "󰟔 "
-
-[ruby]
-symbol = " "
-
-[rust]
-symbol = " "
-
-[scala]
-symbol = " "
