@@ -45,3 +45,16 @@
 - VPN - tailscale
 - gcc
 - rustup
+
+## Non-free packages
+
+To enable non-free rpm-fusion packages:
+```bash
+sudo dnf install \
+  https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+```
+
+To enable non-free ffmpeg:
+```bash
+sudo dnf swap ffmpeg-free ffmpeg --allowerasing
+```
