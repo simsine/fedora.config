@@ -28,6 +28,7 @@
 - Spotify client - ncspot - https://github.com/hrkfdn/ncspot
 - Volume controller - PulseAudio Volume Controll - org.pulseaudio.pavucontrol
 - Credential manager - Passwords and Keys - org.gnome.seahorse.Application
+- Obsidian - md.obsidian.Obsidian
 ### - DNF -
 - Screenshots - Flameshot
 - Torrenting - qbittorrent
