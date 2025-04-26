@@ -82,15 +82,8 @@
     },
     {
         "key": "alt+r",
+        "when": "editorLangId == 'rust'",
         "command": "rust-analyzer.run"
-    },
-    {
-        "key": "ctrl+[Semicolon]",
-        "command": "workbench.action.togglePanel"
-    },
-    {
-        "key": "ctrl+[Period]",
-        "command": "workbench.action.openSettings"
     },
     {
         "key": "ctrl+[Comma]",
