@@ -9,7 +9,7 @@
 	// Terminal
     "terminal.external.linuxExec": "ptyxis",
 	"terminal.integrated.defaultProfile.linux": "fish",
-	"terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'CaskaydiaCove NFM', 'Cascadia Mono', Consolas",
+	"terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'CaskaydiaCove NFM Regular', 'Cascadia Mono', Consolas, monospace",
 	"terminal.integrated.tabs.location": "left",
 	"terminal.integrated.smoothScrolling": true,
 	
@@ -18,7 +18,7 @@
 	"editor.minimap.renderCharacters": false,
 	"editor.minimap.size": "fit",
 	"editor.fontLigatures": true,
-	"editor.fontFamily": "'FiraCode Nerd Font Mono', 'CaskaydiaCove NFM Regular', Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "'FiraCode Nerd Font Mono', 'CaskaydiaCove NFM Regular', 'Cascadia Mono', Consolas, monospace",
 	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.cursorStyle": "block",
 	"editor.smoothScrolling": true,
@@ -29,10 +29,10 @@
 	
 	// Workbench
 	"workbench.startupEditor": "none",
-	"workbench.colorTheme": "Adwaita Dark & Github syntax highlighting",
-	"workbench.iconTheme": "material-icon-theme",
 	"workbench.list.smoothScrolling": true,
 	"workbench.layoutControl.type": "menu",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Adwaita Dark & Github syntax highlighting",
 	
 	// Other
 	"files.autoSave": "afterDelay",
