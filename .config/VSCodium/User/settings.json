@@ -100,7 +100,7 @@
 	"git.autofetch": true,
 	"python.experiments.enabled": false,
 	"terminal.integrated.tabs.location": "left",
-	"diffEditor.ignoreTrimWhitespace": false,
+	"diffEditor.ignoreTrimWhitespace": true,
 	"editor.cursorSmoothCaretAnimation": "on",
 	"git.blame.statusBarItem.enabled": true,
     "chat.commandCenter.enabled": false,
@@ -108,4 +108,14 @@
 	"ansible.lightspeed.enabled": false,
 	"workbench.colorTheme": "Adwaita Dark & Github syntax highlighting",
 	"window.newWindowProfile": "Default",
+	"editor.renderWhitespace": "boundary",
+	"[ansible]": {
+		"editor.detectIndentation": true
+	},
+	"editor.insertSpaces": false,
+	"[yaml]": {
+	},
+	"editor.smoothScrolling": true,
+	"terminal.integrated.smoothScrolling": true,
+	"workbench.list.smoothScrolling": true,
 }

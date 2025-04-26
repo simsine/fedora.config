@@ -88,4 +88,12 @@
         "key": "ctrl+[Semicolon]",
         "command": "workbench.action.togglePanel"
     },
+    {
+        "key": "ctrl+[Period]",
+        "command": "workbench.action.openSettings"
+    },
+    {
+        "key": "ctrl+[Comma]",
+        "command": "-workbench.action.openSettings"
+    },
 ]
