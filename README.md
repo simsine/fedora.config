@@ -3,7 +3,7 @@
 ![Screenshot of current desktop look](./media/desktop.png)
 
 ## - General -
-- Distro: **Fedora Linux 39 (Workstation Edition) GNOME**
+- Distro: **Fedora Linux 42 (Workstation Edition) GNOME**
 - [Background](./media/wallpaper_glassbeach.webp)
 
 ## - GNOME Extentions -
