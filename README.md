@@ -18,7 +18,6 @@
 ## - Themes -
 - Normal font - Comfortaa
 - NerdFont - Firacode Nerd Font - https://www.nerdfonts.com/font-downloads
-- Firefox theme - penguinFox - https://github.com/p3nguin-kun/penguinFox
 - GTK theme - Colloid dgtk theme - https://github.com/vinceliuice/Colloid-gtk-theme
 - Icon theme - Colloid icon theme - https://github.com/vinceliuice/Colloid-icon-theme
 - gnome-terminal - One Dark - https://gogh-co.github.io/Gogh/
