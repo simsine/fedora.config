@@ -10,7 +10,6 @@
     "terminal.external.linuxExec": "ptyxis",
 	"terminal.integrated.defaultProfile.linux": "fish",
 	"terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'CaskaydiaCove NFM Regular', 'Cascadia Mono', Consolas, monospace",
-	"terminal.integrated.tabs.location": "left",
 	"terminal.integrated.smoothScrolling": true,
 	
 	// Editor

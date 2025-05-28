@@ -89,4 +89,8 @@
         "key": "ctrl+[Comma]",
         "command": "-workbench.action.openSettings"
     },
+    {
+        "key": "ctrl+shift+[BracketLeft]",
+        "command": "workbench.action.terminal.new"
+    },
 ]
