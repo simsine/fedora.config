@@ -24,25 +24,28 @@
 
 ## - Apps -
 ### - Flatpak -
-- Spotify client - ncspot - https://github.com/hrkfdn/ncspot
-- Volume controller - PulseAudio Volume Controll - org.pulseaudio.pavucontrol
-- Credential manager - Passwords and Keys - org.gnome.seahorse.Application
+- ncspot - https://github.com/hrkfdn/ncspot - Spotify client
+- PulseAudio Volume Controll - org.pulseaudio.pavucontrol - Volume controller
+- Credential manager - org.gnome.seahorse.Application - Passwords and Keys
 - Obsidian - md.obsidian.Obsidian
+- Add water - dev.qwery.AddWater
 ### - DNF -
-- Screenshots - Flameshot
-- Torrenting - qbittorrent
-- Prompt - Starship
-- User shell - fish
-- IDE - VSCodium
-- Media Downloader - yt-dlp + yt-dlp-fish-completion
-- Media encoder - ffmpeg
-- VPN client - Mullvad vpn
-- Minecraft - Prism Launcher
-- fastfetch 
-- serial interface - minicom
-- VPN - wiretuard-tools
-- VPN - tailscale
+- flameshot - Screenshots
+- qbittorrent - Torrenting
+- starship - Prompt
+- fish - User shell
+- VSCodium - IDE
+- yt-dlp + yt-dlp-fish-completion - Media Downloader
+- ffmpeg - Media encoder
+- Prism Launcher - Minecraft
+- fastfetch
+- minicom - serial interface
+- smartmontools - S.M.A.R.T utilities
+- Mullvad vpn - VPN client
+- wiretuard-tools - VPN
+- tailscale - VPN
 - gcc
+- gcc-c++
 - rustup
 
 ## Non-free packages
