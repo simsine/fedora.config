@@ -47,6 +47,7 @@
 - gcc
 - gcc-c++
 - rustup
+- postgresql
 
 ## Non-free packages
 
