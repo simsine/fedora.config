@@ -48,6 +48,7 @@
 - gcc-c++
 - rustup
 - postgresql
+- onefetch
 
 ## Non-free packages
 
