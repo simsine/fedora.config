@@ -49,6 +49,7 @@
 - rustup
 - postgresql
 - onefetch
+- ncdu
 
 ## Non-free packages
 

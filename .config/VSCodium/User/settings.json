@@ -11,9 +11,11 @@
 	"terminal.integrated.defaultProfile.linux": "fish",
 	"terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'CaskaydiaCove NFM Regular', 'Cascadia Mono', Consolas, monospace",
 	"terminal.integrated.smoothScrolling": true,
+	"terminal.integrated.stickyScroll.enabled": false,
+
 	
 	// Editor
-	"editor.minimap.autohide": true,
+	"editor.minimap.autohide": "mouseover",
 	"editor.minimap.renderCharacters": false,
 	"editor.minimap.size": "fit",
 	"editor.fontLigatures": true,
@@ -23,7 +25,6 @@
 	"editor.smoothScrolling": true,
 	"editor.insertSpaces": false,
 	"editor.renderWhitespace": "boundary",
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"diffEditor.ignoreTrimWhitespace": true,
 	
 	// Workbench
@@ -65,7 +66,7 @@
 	"redhat.telemetry.enabled": false,
 	"ansible.lightspeed.enabled": false,
 	"[ansible]": {
-		"editor.detectIndentation": true
+		"editor.detectIndentation": true,
 	},
 
 	"haskell.manageHLS": "GHCup",
