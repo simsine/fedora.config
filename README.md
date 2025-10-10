@@ -63,3 +63,15 @@ To enable non-free ffmpeg:
 ```bash
 sudo dnf swap ffmpeg-free ffmpeg --allowerasing
 ```
+## 
+```bash
+sudo systemctl disable NetworkManager-wait-online.service
+```
+
+## Fisher
+
+https://github.com/jorgebucaran/fisher
+
+```sh
+fisher install jorgebucaran/nvm.fish
+```
