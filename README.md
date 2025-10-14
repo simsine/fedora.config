@@ -29,6 +29,7 @@
 - Credential manager - org.gnome.seahorse.Application - Passwords and Keys
 - Obsidian - md.obsidian.Obsidian
 - Add water - dev.qwery.AddWater
+- Prism Launcher
 ### - DNF -
 - flameshot - Screenshots
 - qbittorrent - Torrenting
@@ -37,7 +38,6 @@
 - VSCodium - IDE
 - yt-dlp + yt-dlp-fish-completion - Media Downloader
 - ffmpeg - Media encoder
-- Prism Launcher - Minecraft
 - fastfetch
 - minicom - serial interface
 - smartmontools - S.M.A.R.T utilities
