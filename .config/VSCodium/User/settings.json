@@ -1,10 +1,11 @@
 {
 	// Window
 	"window.titleBarStyle": "custom",
-	"window.menuBarVisibility": "compact",
     "window.customMenuBarAltFocus": false,
 	"window.zoomLevel": 1,
 	"window.newWindowProfile": "Default",
+	"window.menuBarVisibility": "compact",
+	"window.commandCenter": false,
 
 	// Terminal
     "terminal.external.linuxExec": "ptyxis",
@@ -12,7 +13,6 @@
 	"terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'CaskaydiaCove NFM Regular', 'Cascadia Mono', Consolas, monospace",
 	"terminal.integrated.smoothScrolling": true,
 	"terminal.integrated.stickyScroll.enabled": false,
-
 	
 	// Editor
 	"editor.minimap.autohide": "mouseover",
@@ -33,6 +33,9 @@
 	"workbench.layoutControl.type": "menu",
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.colorTheme": "Adwaita Dark & Github syntax highlighting",
+	"workbench.layoutControl.enabled": false,
+	"workbench.navigationControl.enabled": false,
+	"workbench.productIconTheme": "material-product-icons",
 	
 	// Other
 	"files.autoSave": "afterDelay",
@@ -83,5 +86,6 @@
 	"[github-actions-workflow]": {
 		"editor.defaultFormatter": "redhat.vscode-yaml"
 	},
+
 	"lldb.suppressUpdateNotifications": true,
 }
