@@ -3,7 +3,7 @@
 ![Screenshot of current desktop look](./media/desktop.png)
 
 ## - General -
-- Distro: **Fedora Linux 42 (Workstation Edition) GNOME**
+- Distro: **Fedora Linux 43 (Workstation Edition) GNOME**
 - [Background](./media/wallpaper_glassbeach.webp)
 
 ## - GNOME Extentions -
@@ -20,7 +20,6 @@
 - NerdFont - Firacode Nerd Font - https://www.nerdfonts.com/font-downloads
 - GTK theme - Colloid dgtk theme - https://github.com/vinceliuice/Colloid-gtk-theme
 - Icon theme - Colloid icon theme - https://github.com/vinceliuice/Colloid-icon-theme
-- gnome-terminal - One Dark - https://gogh-co.github.io/Gogh/
 
 ## - Apps -
 ### - Flatpak -
@@ -31,7 +30,6 @@
 - Add water - dev.qwery.AddWater
 - Prism Launcher
 ### - DNF -
-- flameshot - Screenshots
 - qbittorrent - Torrenting
 - starship - Prompt
 - fish - User shell
