@@ -48,6 +48,12 @@
 - postgresql
 - onefetch
 - ncdu
+### - Cargo - 
+- fzf
+- eza
+- bat
+- systemctl-tui
+- ripgrep (rg)
 
 ## Non-free packages
 

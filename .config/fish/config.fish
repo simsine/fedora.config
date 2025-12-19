@@ -1,11 +1,15 @@
 starship init fish | source
 
-set NVM_DIR $HOME/.nvm
-set nvm_default_version lts/krypton
-
 alias ff="fastfetch"
 alias zola="flatpak run org.getzola.zola"
-alias st="systemctl-tui"
+alias systui="systemctl-tui"
+alias ls="eza"
+alias lsa="eza -lah --git-ignore --git --git-repos --icons=auto"
+alias cat="bat"
+alias grep="rg"
+
+set NVM_DIR $HOME/.nvm
+set nvm_default_version lts/krypton
 
 fish_add_path /home/simsine/.dotnet/tools
 
