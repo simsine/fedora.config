@@ -4,8 +4,8 @@ alias ff="fastfetch"
 alias zola="flatpak run org.getzola.zola"
 alias systui="systemctl-tui"
 alias ls="eza"
-alias lsa="eza -lah --git-ignore --git --git-repos --icons=auto"
-alias cat="bat"
+alias lsa="eza -lah --git-ignore --git --icons=auto"
+alias cat="bat -p"
 alias grep="rg"
 
 set NVM_DIR $HOME/.nvm
