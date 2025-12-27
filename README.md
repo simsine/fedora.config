@@ -3,23 +3,28 @@
 ![Screenshot of current desktop look](./media/desktop.png)
 
 ## - General -
-- Distro: **Fedora Linux 43 (Workstation Edition) GNOME**
-- [Background](./media/wallpaper_glassbeach.webp)
+- Distro: **Fedora Linux Workstation Edition (GNOME)**
+- [Background image](./media/wallpaper_glassbeach.webp)
 
 ## - GNOME Extentions -
+- Battery health charging
 - Blur my Shell
-- User Themes
 - Hide Cursor
-- Launch new instance
-- Appindicator
+- Logo menu
 - Removable drive menu
 - System monitor
+- Tailscale QS
+- Appindicator and KStatusNotifierItem Support
+- Background logo
+- Launch new instance
 
 ## - Themes -
-- Normal font - Comfortaa
+- Interface font - Comfortaa
+- Document font - Adwaita Sans
 - NerdFont - Firacode Nerd Font - https://www.nerdfonts.com/font-downloads
-- GTK theme - Colloid dgtk theme - https://github.com/vinceliuice/Colloid-gtk-theme
-- Icon theme - Colloid icon theme - https://github.com/vinceliuice/Colloid-icon-theme
+- Icon theme - Colloid red light - https://github.com/vinceliuice/Colloid-icon-theme
+- Cursor - WhiteSur cursors - https://github.com/vinceliuice/WhiteSur-cursors
+- Firefox theme - Firefox GNOME Theme - https://github.com/largestgithubuseronearth/addwater
 
 ## - Apps -
 ### - Flatpak -
