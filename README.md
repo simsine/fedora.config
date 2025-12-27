@@ -51,13 +51,13 @@
 - ncdu
 - lf
 ### - Cargo - 
+- zoxide (z)
 - fzf
 - eza
 - bat
 - ripgrep (rg)
 - bacon
 - systemctl-tui
-- ripgrep (rg)
 
 ## Non-free packages
 

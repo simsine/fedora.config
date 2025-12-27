@@ -1,4 +1,5 @@
 starship init fish | source
+zoxide init fish | source
 
 alias ff="fastfetch"
 alias zola="flatpak run org.getzola.zola"
