@@ -36,6 +36,7 @@
 - VSCodium - IDE
 - yt-dlp + yt-dlp-fish-completion - Media Downloader
 - ffmpeg - Media encoder
+- imagemagick
 - fastfetch
 - minicom - serial interface
 - smartmontools - S.M.A.R.T utilities
@@ -48,10 +49,13 @@
 - postgresql
 - onefetch
 - ncdu
+- lf
 ### - Cargo - 
 - fzf
 - eza
 - bat
+- ripgrep (rg)
+- bacon
 - systemctl-tui
 - ripgrep (rg)
 

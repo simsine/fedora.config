@@ -3,7 +3,7 @@ starship init fish | source
 alias ff="fastfetch"
 alias zola="flatpak run org.getzola.zola"
 alias systui="systemctl-tui"
-alias ls="eza"
+alias ls="eza --icons=auto"
 alias lsa="eza -lah --git-ignore --git --icons=auto"
 alias cat="bat -p"
 alias grep="rg"
