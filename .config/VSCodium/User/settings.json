@@ -36,6 +36,7 @@
 	"workbench.layoutControl.enabled": false,
 	"workbench.navigationControl.enabled": false,
 	"workbench.productIconTheme": "material-product-icons",
+	"workbench.tips.enabled": false,
 	
 	// Other
 	"files.autoSave": "afterDelay",
