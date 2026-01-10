@@ -55,6 +55,7 @@
 - onefetch
 - ncdu
 - lf
+- gh
 ### - Cargo - 
 - zoxide (z)
 - fzf
@@ -63,6 +64,7 @@
 - ripgrep (rg)
 - bacon
 - systemctl-tui
+- atuin
 
 ## Non-free packages
 
