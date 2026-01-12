@@ -9,3 +9,4 @@ ln -sf ~/git/fedora.config/.config/VSCodium/User/snippets/ ~/.config/VSCodium/Us
 ln -sf ~/git/fedora.config/.config/VSCodium/User/keybindings.json ~/.config/VSCodium/User/keybindings.json
 ln -sf ~/git/fedora.config/.config/VSCodium/User/settings.json ~/.config/VSCodium/User/settings.json
 ln -sf ~/git/fedora.config/.config/backintime/config ~/.config/backintime/config
+ln -sf ~/git/fedora.config/.config/git ~/.config/git
