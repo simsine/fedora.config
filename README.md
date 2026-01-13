@@ -1,10 +1,10 @@
 # ~ My Linux configs ~
 
-![Screenshot of current desktop look](./media/desktop.png)
+![Screenshot of desktop](./media/desktop.png)
 
 ## - General -
 - Distro: **Fedora Linux Workstation Edition (GNOME)**
-- [Background image](./media/wallpaper_glassbeach.webp)
+- [Desktop background image](./media/wallpaper_glassbeach.webp)
 
 ## - GNOME Extentions -
 - Battery health charging
@@ -27,6 +27,7 @@
 - Firefox theme - Firefox GNOME Theme - https://github.com/largestgithubuseronearth/addwater
 
 ## - Apps -
+
 ### - Flatpak -
 - ncspot - https://github.com/hrkfdn/ncspot - Spotify client
 - PulseAudio Volume Controll - org.pulseaudio.pavucontrol - Volume controller
@@ -34,6 +35,7 @@
 - Obsidian - md.obsidian.Obsidian
 - Add water - dev.qwery.AddWater
 - Prism Launcher
+
 ### - DNF -
 - qbittorrent - Torrenting
 - starship - Prompt
@@ -56,6 +58,9 @@
 - ncdu
 - lf
 - gh
+- pandoc
+- texlive-scheme-basic
+
 ### - Cargo - 
 - zoxide (z)
 - fzf
@@ -78,10 +83,6 @@ To enable non-free ffmpeg:
 ```bash
 sudo dnf swap ffmpeg-free ffmpeg --allowerasing
 ```
-## 
-```bash
-sudo systemctl disable NetworkManager-wait-online.service
-```
 
 ## Fisher
 
@@ -89,4 +90,16 @@ https://github.com/jorgebucaran/fisher
 
 ```sh
 fisher install jorgebucaran/nvm.fish
+```
+
+## Codium
+
+Dump codium extensions
+```bash
+codium --list-extensions > codium_extensions.txt
+```
+
+Install codium extensions (fish shell)
+```fish
+for ext in (cat codium_extensions.txt); codium --install-extension $ext; end
 ```
