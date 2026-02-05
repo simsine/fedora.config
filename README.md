@@ -102,7 +102,7 @@ codium --list-extensions > codium_extensions.txt
 
 Install codium extensions (fish shell)
 ```fish
-for ext in (cat codium_extensions.txt); codium --install-extension $ext; end
+for ext in (/usr/bin/cat codium_extensions.txt); codium --install-extension $ext; end
 ```
 
 ## Node.js with pnpm
