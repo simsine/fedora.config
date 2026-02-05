@@ -60,6 +60,7 @@
 - gh
 - pandoc
 - texlive-scheme-basic
+- texlive-mdwtools
 
 ### - Cargo - 
 - zoxide (z)
@@ -102,4 +103,24 @@ codium --list-extensions > codium_extensions.txt
 Install codium extensions (fish shell)
 ```fish
 for ext in (cat codium_extensions.txt); codium --install-extension $ext; end
+```
+
+## Node.js with pnpm
+
+Install corepack
+
+```bash
+npm install --global corepack@latest
+```
+
+Enable pnpm through corepack
+
+```bash
+corepack enable pnpm
+```
+
+Update to the latest version of pnpm
+
+```bash
+corepack prepare pnpm@latest --activate
 ```

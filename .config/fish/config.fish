@@ -1,8 +1,8 @@
 # Initalize on interactive shell
 if status is-interactive
-  [ "$(command -v atuin)" ] && eval "$(starship init fish)"
+  [ "$(command -v starship)" ] && eval "$(starship init fish)"
   [ "$(command -v atuin)" ] && eval "$(atuin init fish)"
-  [ "$(command -v atuin)" ] && eval "$(zoxide init fish)"
+  [ "$(command -v zoxide)" ] && eval "$(zoxide init fish)"
 end
 
 # Aliases
