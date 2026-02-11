@@ -21,6 +21,9 @@ set nvm_default_version lts/krypton
 set DOCKER_HOST unix:///run/user/$UID/podman/podman.sock
 set PODMAN_COMPOSE_WARNING_LOGS false
 
+set BUN_INSTALL $HOME/.bun
+set -gx PATH "$BUN_INSTALL/bin:$PATH"
+
 # Path variables
 fish_add_path /home/simsine/.dotnet/tools
 
