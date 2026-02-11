@@ -1,96 +1,96 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-    {
-        "key": "ctrl+j",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
-    {
-        "key": "ctrl+shift+[Equal]",
-        "command": "-workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
-    {
-        "key": "alt+left",
-        "command": "workbench.action.navigateBack",
-        "when": "canNavigateBack"
-    },
-    {
-        "key": "ctrl+alt+-",
-        "command": "-workbench.action.navigateBack",
-        "when": "canNavigateBack"
-    },
-    {
-        "key": "alt+right",
-        "command": "workbench.action.navigateForward",
-        "when": "canNavigateForward"
-    },
-    {
-        "key": "ctrl+shift+-",
-        "command": "-workbench.action.navigateForward",
-        "when": "canNavigateForward"
-    },
-    {
-        "key": "shift+alt+down",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+alt+down",
-        "command": "-editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+alt+up",
-        "command": "editor.action.copyLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+alt+up",
-        "command": "-editor.action.copyLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+alt+up",
-        "command": "-editor.action.insertCursorAbove",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+alt+down",
-        "command": "-editor.action.insertCursorBelow",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+r",
-        "command": "-toggleSearchEditorRegex",
-        "when": "inSearchEditor && searchInputBoxFocus"
-    },
-    {
-        "key": "alt+r",
-        "command": "-workbench.action.terminal.toggleFindRegex",
-        "when": "terminalFindVisible && terminalHasBeenCreated || terminalFindVisible && terminalProcessSupported"
-    },
-    {
-        "key": "alt+r",
-        "command": "-toggleFindRegex",
-        "when": "editorFocus"
-    },
-    {
-        "key": "alt+r",
-        "command": "-toggleSearchRegex",
-        "when": "searchViewletFocus"
-    },
-    {
-        "key": "alt+r",
-        "when": "editorLangId == 'rust'",
-        "command": "rust-analyzer.run"
-    },
-    {
-        "key": "ctrl+[Comma]",
-        "command": "-workbench.action.openSettings"
-    },
-    {
-        "key": "ctrl+shift+[BracketLeft]",
-        "command": "workbench.action.terminal.new"
-    },
+	{
+		"key": "ctrl+j",
+		"command": "workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active"
+	},
+	{
+		"key": "ctrl+shift+[Equal]",
+		"command": "-workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active"
+	},
+	{
+		"key": "alt+left",
+		"command": "workbench.action.navigateBack",
+		"when": "canNavigateBack"
+	},
+	{
+		"key": "ctrl+alt+-",
+		"command": "-workbench.action.navigateBack",
+		"when": "canNavigateBack"
+	},
+	{
+		"key": "alt+right",
+		"command": "workbench.action.navigateForward",
+		"when": "canNavigateForward"
+	},
+	{
+		"key": "ctrl+shift+-",
+		"command": "-workbench.action.navigateForward",
+		"when": "canNavigateForward"
+	},
+	{
+		"key": "shift+alt+down",
+		"command": "editor.action.copyLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+alt+down",
+		"command": "-editor.action.copyLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "shift+alt+up",
+		"command": "editor.action.copyLinesUpAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+alt+up",
+		"command": "-editor.action.copyLinesUpAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "shift+alt+up",
+		"command": "-editor.action.insertCursorAbove",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+down",
+		"command": "-editor.action.insertCursorBelow",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+r",
+		"command": "-toggleSearchEditorRegex",
+		"when": "inSearchEditor && searchInputBoxFocus"
+	},
+	{
+		"key": "alt+r",
+		"command": "-workbench.action.terminal.toggleFindRegex",
+		"when": "terminalFindVisible && terminalHasBeenCreated || terminalFindVisible && terminalProcessSupported"
+	},
+	{
+		"key": "alt+r",
+		"command": "-toggleFindRegex",
+		"when": "editorFocus"
+	},
+	{
+		"key": "alt+r",
+		"command": "-toggleSearchRegex",
+		"when": "searchViewletFocus"
+	},
+	{
+		"key": "alt+r",
+		"when": "editorLangId == 'rust'",
+		"command": "rust-analyzer.run"
+	},
+	{
+		"key": "ctrl+[Comma]",
+		"command": "-workbench.action.openSettings"
+	},
+	{
+		"key": "ctrl+shift+[BracketLeft]",
+		"command": "workbench.action.terminal.new"
+	},
 ]

@@ -1,14 +1,14 @@
 {
 	// Window
 	"window.titleBarStyle": "custom",
-    "window.customMenuBarAltFocus": false,
+	"window.customMenuBarAltFocus": false,
 	"window.zoomLevel": 1,
 	"window.newWindowProfile": "Default",
 	"window.menuBarVisibility": "compact",
 	"window.commandCenter": false,
 
 	// Terminal
-    "terminal.external.linuxExec": "ptyxis",
+	"terminal.external.linuxExec": "ptyxis",
 	"terminal.integrated.defaultProfile.linux": "fish",
 	"terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'CaskaydiaCove NFM Regular', 'Cascadia Mono', Consolas, monospace",
 	"terminal.integrated.smoothScrolling": true,
@@ -40,10 +40,10 @@
 	
 	// Other
 	"files.autoSave": "afterDelay",
-    "explorer.confirmDragAndDrop": false,
+	"explorer.confirmDragAndDrop": false,
 	"security.workspace.trust.untrustedFiles": "open",
 	"explorer.confirmDelete": false,
-    "chat.commandCenter.enabled": false,
+	"chat.commandCenter.enabled": false,
 	"telemetry.telemetryLevel": "error",
 	"dev.containers.executeInWSL": true,
 
