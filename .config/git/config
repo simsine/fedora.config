@@ -1,5 +1,5 @@
 [user]
-    email = simen@simsine.no
-    name = simsine
+	email = simen@simsine.no
+	name = simsine
 [init]
-    defaultBranch = main
+	defaultBranch = main

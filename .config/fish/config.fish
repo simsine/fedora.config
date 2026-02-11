@@ -1,8 +1,8 @@
 # Initalize on interactive shell
 if status is-interactive
-  [ "$(command -v starship)" ] && eval "$(starship init fish)"
-  [ "$(command -v atuin)" ] && eval "$(atuin init fish)"
-  [ "$(command -v zoxide)" ] && eval "$(zoxide init fish)"
+	[ "$(command -v starship)" ] && eval "$(starship init fish)"
+	[ "$(command -v atuin)" ] && eval "$(atuin init fish)"
+	[ "$(command -v zoxide)" ] && eval "$(zoxide init fish)"
 end
 
 # Aliases
@@ -30,6 +30,6 @@ fish_add_path /home/simsine/.dotnet/tools
 # pnpm
 set -gx PNPM_HOME "/home/simsine/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
+	set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end

@@ -13,15 +13,15 @@
 	// 	"description": "Log output to console"
 	// }
 
-	 "Python main method": {
-	 	"prefix": "main",
-	 	"body": [
-	 		"def main():",
+	"Python main method": {
+		"prefix": "main",
+		"body": [
+			"def main():",
 			"\t",
 			"",
 			"if __name__ == '__main__':  # This code won't run if this file is imported.",
 			"\t main()"
-	 	],
-	 	"description": "Python main function boilerplate"
-	 }
+		],
+		"description": "Python main function boilerplate"
+	}
 }
