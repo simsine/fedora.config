@@ -13,6 +13,8 @@ alias ls="eza --icons=auto"
 alias lsa="eza -lah --git-ignore --git --icons=auto --group-directories-first"
 alias cat="bat -p"
 alias grep="rg"
+alias sudo="sudo-rs"
+alias visudo="visudo-rs"
 
 # Env variables
 set NVM_DIR $HOME/.nvm
