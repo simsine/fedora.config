@@ -61,6 +61,7 @@
 - pandoc
 - texlive-scheme-basic
 - texlive-mdwtools
+- sudo-rs
 
 ### - Cargo - 
 - zoxide (z)
