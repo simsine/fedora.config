@@ -46,6 +46,7 @@
 	"chat.commandCenter.enabled": false,
 	"telemetry.telemetryLevel": "error",
 	"dev.containers.executeInWSL": true,
+	"python.experiments.enabled": false,
 
 	// git settings
 	"git.autofetch": true,
@@ -77,16 +78,19 @@
 
 	"prisma.showPrismaDataPlatformNotification": false,
 
-	"python.experiments.enabled": false,
 	"[dockercompose]": {
 		"editor.insertSpaces": true,
 		"editor.tabSize": 2,
 		"editor.autoIndent": "advanced",
 		"editor.defaultFormatter": "redhat.vscode-yaml"
 	},
+
 	"[github-actions-workflow]": {
 		"editor.defaultFormatter": "redhat.vscode-yaml"
 	},
 
 	"lldb.suppressUpdateNotifications": true,
+
+	"python-envs.terminal.autoActivationType": "shellStartup",
+	"python-envs.terminal.showActivateButton": true,
 }

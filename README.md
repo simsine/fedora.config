@@ -125,3 +125,9 @@ Update to the latest version of pnpm
 ```bash
 corepack prepare pnpm@latest --activate
 ```
+
+## Python
+
+```bash
+uv self update
+```

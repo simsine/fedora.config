@@ -27,7 +27,7 @@ set BUN_INSTALL $HOME/.bun
 set -gx PATH "$BUN_INSTALL/bin:$PATH"
 
 # Path variables
-fish_add_path /home/simsine/.dotnet/tools
+fish_add_path $HOME/.dotnet/tools
 
 # pnpm
 set -gx PNPM_HOME "/home/simsine/.local/share/pnpm"
@@ -35,3 +35,13 @@ if not string match -q -- $PNPM_HOME $PATH
 	set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
+
+# >>> vscode python
+# version: 0.1.1
+if not set -q VSCODE_PYTHON_AUTOACTIVATE_GUARD
+    set -gx VSCODE_PYTHON_AUTOACTIVATE_GUARD 1
+    if test "$TERM_PROGRAM" = "vscode"; and set -q VSCODE_PYTHON_FISH_ACTIVATE
+        eval $VSCODE_PYTHON_FISH_ACTIVATE
+    end
+end
+# <<< vscode python
