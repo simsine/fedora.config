@@ -19,17 +19,19 @@
 - Launch new instance
 
 ## - Themes -
-- Interface font - Comfortaa
+- Interface font - Adwaita Sans
 - Document font - Adwaita Sans
-- NerdFont - Firacode Nerd Font - https://www.nerdfonts.com/font-downloads
-- Icon theme - Colloid red light - https://github.com/vinceliuice/Colloid-icon-theme
+- NerdFont - Firacode Nerd Font Mono - https://www.nerdfonts.com/font-downloads
 - Cursor - WhiteSur cursors - https://github.com/vinceliuice/WhiteSur-cursors
+- Icon theme - Neuwaita - https://github.com/RusticBard/Neuwaita
 - Firefox theme - Firefox GNOME Theme - https://github.com/largestgithubuseronearth/addwater
+- Obsidian theme - Adwaita z- https://github.com/birneee/obsidian-adwaita-theme
+- VSCodium theme - Adwaita Github - https://github.com/egirlcatnip/vscode-adwaita-github-theme
 
 ## - Apps -
 
 ### - Flatpak -
-- ncspot - https://github.com/hrkfdn/ncspot - Spotify client
+- ncspot - https://github.com/hrkfdn/ncspot - Spotify TUI client
 - PulseAudio Volume Controll - org.pulseaudio.pavucontrol - Volume controller
 - Credential manager - org.gnome.seahorse.Application - Passwords and Keys
 - Obsidian - md.obsidian.Obsidian
@@ -77,8 +79,7 @@
 
 To enable non-free rpm-fusion packages:
 ```bash
-sudo dnf install \
-  https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 ```
 
 To enable non-free ffmpeg:
