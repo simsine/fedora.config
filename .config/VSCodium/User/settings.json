@@ -48,7 +48,7 @@
 	"telemetry.telemetryLevel": "error",
 	"dev.containers.executeInWSL": true,
 	"python.experiments.enabled": false,
-	"python.useEnvironmentsExtension": true, // Temp
+	"python.useEnvironmentsExtension": false, // Temp
 	
 	// git settings
 	"git.autofetch": true,
