@@ -13,6 +13,7 @@ redhat.ansible
 redhat.vscode-yaml
 rust-lang.rust-analyzer
 rvest.vs-code-prettier-eslint
+svelte.svelte-vscode
 tamasfe.even-better-toml
 tomoki1207.pdf
 vadimcn.vscode-lldb
