@@ -6,13 +6,14 @@
 	"window.newWindowProfile": "Default",
 	"window.menuBarVisibility": "compact",
 	"window.commandCenter": false,
-
+	
 	// Terminal
 	"terminal.external.linuxExec": "ptyxis",
 	"terminal.integrated.defaultProfile.linux": "fish",
 	"terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'CaskaydiaCove NFM Regular', 'Cascadia Mono', Consolas, monospace",
 	"terminal.integrated.smoothScrolling": true,
 	"terminal.integrated.stickyScroll.enabled": false,
+	"terminal.integrated.initialHint": false,
 	
 	// Editor
 	"editor.minimap.autohide": "mouseover",
@@ -32,7 +33,6 @@
 	"workbench.list.smoothScrolling": true,
 	"workbench.layoutControl.type": "menu",
 	"workbench.iconTheme": "material-icon-theme",
-	"workbench.colorTheme": "Adwaita Dark & Github syntax highlighting",
 	"workbench.layoutControl.enabled": false,
 	"workbench.navigationControl.enabled": false,
 	"workbench.productIconTheme": "material-product-icons",
@@ -43,15 +43,18 @@
 	"explorer.confirmDragAndDrop": false,
 	"security.workspace.trust.untrustedFiles": "open",
 	"explorer.confirmDelete": false,
+	"explorer.confirmPasteNative": false,
 	"chat.commandCenter.enabled": false,
 	"telemetry.telemetryLevel": "error",
 	"dev.containers.executeInWSL": true,
 	"python.experiments.enabled": false,
-
+	"python.useEnvironmentsExtension": true, // Temp
+	
 	// git settings
 	"git.autofetch": true,
 	"git.openRepositoryInParentFolders": "never",
 	"git.blame.statusBarItem.enabled": true,
+	"scm.repositories.selectionMode": "single",
 	
 	// Extensions
 
