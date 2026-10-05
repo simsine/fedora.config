@@ -7,7 +7,6 @@
 - [Desktop background image](./media/wallpaper_glassbeach.webp)
 
 ## - GNOME Extentions -
-- Battery health charging
 - Blur my Shell
 - Hide Cursor
 - Logo menu
