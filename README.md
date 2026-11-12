@@ -63,6 +63,8 @@
 - texlive-scheme-basic
 - texlive-mdwtools
 - sudo-rs
+- avahi-tools
+- rclone
 
 ### - Cargo - 
 - zoxide (z)

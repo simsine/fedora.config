@@ -37,6 +37,7 @@
 	"workbench.navigationControl.enabled": false,
 	"workbench.productIconTheme": "material-product-icons",
 	"workbench.tips.enabled": false,
+	"workbench.experimental.modernUI": false,
 	
 	// Other
 	"files.autoSave": "afterDelay",
@@ -96,4 +97,5 @@
 
 	"python-envs.terminal.autoActivationType": "shellStartup",
 	"python-envs.terminal.showActivateButton": true,
+	"claudeCode.preferredLocation": "panel",
 }
