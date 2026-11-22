@@ -6,6 +6,15 @@
 - Distro: **Fedora Linux Workstation Edition (GNOME)**
 - [Desktop background image](./media/wallpaper_glassbeach.webp)
 
+## - Themes -
+- Interface font - Adwaita Sans
+- Document font - Adwaita Sans
+- NerdFont - Firacode Nerd Font Mono - https://www.nerdfonts.com/font-downloads
+- Cursor - WhiteSur cursors - https://github.com/vinceliuice/WhiteSur-cursors
+- Icon theme - Colloid red dark - https://github.com/vinceliuice/Colloid-icon-theme
+- Obsidian theme - Adwaita z- https://github.com/birneee/obsidian-adwaita-theme
+- VSCodium theme - Adwaita Github - https://github.com/egirlcatnip/vscode-adwaita-github-theme
+
 ## - GNOME Extentions -
 - Blur my Shell
 - Hide Cursor
@@ -17,40 +26,41 @@
 - Background logo
 - Launch new instance
 
-## - Themes -
-- Interface font - Adwaita Sans
-- Document font - Adwaita Sans
-- NerdFont - Firacode Nerd Font Mono - https://www.nerdfonts.com/font-downloads
-- Cursor - WhiteSur cursors - https://github.com/vinceliuice/WhiteSur-cursors
-- Icon theme - Neuwaita - https://github.com/RusticBard/Neuwaita
-- Firefox theme - Firefox GNOME Theme - https://github.com/largestgithubuseronearth/addwater
-- Obsidian theme - Adwaita z- https://github.com/birneee/obsidian-adwaita-theme
-- VSCodium theme - Adwaita Github - https://github.com/egirlcatnip/vscode-adwaita-github-theme
-
 ## - Apps -
 
 ### - Flatpak -
-- ncspot - https://github.com/hrkfdn/ncspot - Spotify TUI client
-- PulseAudio Volume Controll - org.pulseaudio.pavucontrol - Volume controller
-- Credential manager - org.gnome.seahorse.Application - Passwords and Keys
-- Obsidian - md.obsidian.Obsidian
-- Add water - dev.qwery.AddWater
-- Prism Launcher
+- https://github.com/hrkfdn/ncspot
+- org.pulseaudio.pavucontrol
+- org.gnome.seahorse.Application
+- md.obsidian.Obsidian
+- org.prismlauncher.PrismLauncher
+- com.discordapp.Discord
+- com.mattermost.Desktop
+- com.mattjakeman.ExtensionManager
+- com.spotify.Client
+- com.usebruno.Bruno
+- eu.betterbird.Betterbird
+- nl.hjdskes.gcolor3
+- org.gimp.GIMP
+- org.gnome.Boxes
+- org.libreoffice.LibreOffice
+- 
 
 ### - DNF -
-- qbittorrent - Torrenting
-- starship - Prompt
-- fish - User shell
-- VSCodium - IDE
-- yt-dlp + yt-dlp-fish-completion - Media Downloader
-- ffmpeg - Media encoder
+- qbittorrent
+- starship
+- fish
+- VSCodium
+- yt-dlp
+- yt-dlp-fish-completion
+- ffmpeg
 - imagemagick
 - fastfetch
-- minicom - serial interface
-- smartmontools - S.M.A.R.T utilities
-- Mullvad vpn - VPN client
-- wiretuard-tools - VPN
-- tailscale - VPN
+- minicom
+- smartmontools
+- Mullvad vpn
+- wiretuard-tools
+- tailscale
 - gcc
 - gcc-c++
 - rustup
@@ -65,6 +75,10 @@
 - sudo-rs
 - avahi-tools
 - rclone
+- age
+- podman
+- nginx
+- uv
 
 ### - Cargo - 
 - zoxide (z)
