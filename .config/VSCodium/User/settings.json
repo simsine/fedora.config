@@ -51,12 +51,13 @@
 	"python.experiments.enabled": false,
 	"python.useEnvironmentsExtension": false, // Temp
 	
-	// git settings
+	// scm settings
+	"scm.repositories.selectionMode": "single",
 	"git.autofetch": true,
 	"git.openRepositoryInParentFolders": "never",
 	"git.blame.statusBarItem.enabled": true,
-	"scm.repositories.selectionMode": "single",
-	
+	"git.confirmSync": false,
+
 	// Extensions
 
 	"svelte.enable-ts-plugin": true,
