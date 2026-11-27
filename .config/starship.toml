@@ -1,3 +1,5 @@
+command_timeout = 1000 # Because git times out in large repos
+
 [username]
 style_user = 'red'
 style_root = 'black bold'
